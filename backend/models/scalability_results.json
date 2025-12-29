@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-12-19T00:21:30.476246",
+  "agent_counts": [
+    3,
+    5,
+    7
+  ],
+  "episodes_per_count": 2,
+  "results": [
+    {
+      "num_agents": 3,
+      "episodes_run": 2,
+      "mean_reward": 4349.834958624175,
+      "std_reward": 4.559829790112872,
+      "mean_stability": 0.85231430367374,
+      "std_stability": 0.0001690742219076502,
+      "total_time_seconds": 0.9988784790039062,
+      "avg_episode_time_seconds": 0.4994392395019531,
+      "avg_step_time_ms": 1.5954060686959162,
+      "memory_usage_mb": 0.62890625,
+      "observation_dim": 9,
+      "action_dim": 3
+    },
+    {
+      "num_agents": 5,
+      "episodes_run": 2,
+      "mean_reward": 7125.252894320595,
+      "std_reward": 31.58304091867467,
+      "mean_stability": 0.8457152440004261,
+      "std_stability": 0.0008886812438927971,
+      "total_time_seconds": 0.7281899452209473,
+      "avg_episode_time_seconds": 0.36409497261047363,
+      "avg_step_time_ms": 1.169353723526001,
+      "memory_usage_mb": 0.078125,
+      "observation_dim": 11,
+      "action_dim": 5
+    },
+    {
+      "num_agents": 7,
+      "episodes_run": 2,
+      "mean_reward": 9885.7173804983,
+      "std_reward": 29.38377689745539,
+      "mean_stability": 0.8405260668180055,
+      "std_stability": 0.0006898161018180637,
+      "total_time_seconds": 0.7563776969909668,
+      "avg_episode_time_seconds": 0.3781888484954834,
+      "avg_step_time_ms": 1.2353907028834026,
+      "memory_usage_mb": 0.05859375,
+      "observation_dim": 13,
+      "action_dim": 7
+    }
+  ],
+  "time_scaling_factor": -0.060693264273438984,
+  "reward_scaling_factor": 0.3181662335773476
+}

@@ -1,0 +1,971 @@
+{
+  "metadata": {
+    "start_time": "2025-12-29T19:47:55.882192",
+    "algorithm": "PPO",
+    "num_agents": 5,
+    "config": {
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "entropy_coeff": 0.01,
+      "train_batch_size": 4000,
+      "num_epochs": 10
+    },
+    "end_time": "2025-12-29T20:06:25.438975",
+    "total_iterations": 50,
+    "final_reward": 14505.87853889594,
+    "best_reward": 14505.87853889594,
+    "best_iteration": 50
+  },
+  "iterations": [
+    {
+      "iteration": 1,
+      "timestamp": "2025-12-29T19:48:24.879464",
+      "episode_reward_mean": 952.7584214167224,
+      "episode_reward_min": -577.4134047074294,
+      "episode_reward_max": 2762.15923903721,
+      "episode_len_mean": 288.0,
+      "episodes_total": 12,
+      "timesteps_total": 4000,
+      "best_reward_so_far": 952.7584214167224,
+      "policy_rewards": {
+        "agent_2": -1039.769806831334,
+        "agent_3": 561.9705652325384,
+        "agent_0": 889.2947315784191,
+        "agent_4": 1653.1662942373885,
+        "agent_1": -1111.9033628002892
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 2,
+      "timestamp": "2025-12-29T19:48:53.638364",
+      "episode_reward_mean": 1204.3022434841293,
+      "episode_reward_min": -577.4134047074294,
+      "episode_reward_max": 3490.72832171632,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 8000,
+      "best_reward_so_far": 1204.3022434841293,
+      "policy_rewards": {
+        "agent_2": -1044.6684350651585,
+        "agent_3": 591.7399204647603,
+        "agent_0": 1039.5822498717357,
+        "agent_4": 1607.0378996567413,
+        "agent_1": -989.3893914439496
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 3,
+      "timestamp": "2025-12-29T19:49:19.044746",
+      "episode_reward_mean": 1696.4748122155731,
+      "episode_reward_min": -586.7831001384059,
+      "episode_reward_max": 4313.272836423261,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 12000,
+      "best_reward_so_far": 1696.4748122155731,
+      "policy_rewards": {
+        "agent_2": -887.6301618365757,
+        "agent_3": 684.5471298338483,
+        "agent_0": 1136.6188352933066,
+        "agent_4": 1626.6383282968682,
+        "agent_1": -863.6993193718745
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 4,
+      "timestamp": "2025-12-29T19:49:44.304410",
+      "episode_reward_mean": 2300.417224849676,
+      "episode_reward_min": -586.7831001384059,
+      "episode_reward_max": 4576.609058347907,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 16000,
+      "best_reward_so_far": 2300.417224849676,
+      "policy_rewards": {
+        "agent_2": -739.9392112770786,
+        "agent_3": 805.6128843330257,
+        "agent_0": 1258.6812351534559,
+        "agent_4": 1687.1820138975174,
+        "agent_1": -711.1196972572445
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 5,
+      "timestamp": "2025-12-29T19:50:11.930700",
+      "episode_reward_mean": 2997.021135251769,
+      "episode_reward_min": -586.7831001384059,
+      "episode_reward_max": 5696.326025927626,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 20000,
+      "best_reward_so_far": 2997.021135251769,
+      "policy_rewards": {
+        "agent_2": -560.5931804990172,
+        "agent_3": 909.6901169708825,
+        "agent_0": 1441.7115161389522,
+        "agent_4": 1738.7820593318104,
+        "agent_1": -532.56937669086
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 6,
+      "timestamp": "2025-12-29T19:50:39.530452",
+      "episode_reward_mean": 3885.129558315291,
+      "episode_reward_min": 1590.2223201840018,
+      "episode_reward_max": 6947.049002687247,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 24000,
+      "best_reward_so_far": 3885.129558315291,
+      "policy_rewards": {
+        "agent_2": -316.6627356098506,
+        "agent_3": 1053.8579215706059,
+        "agent_0": 1605.2523390328338,
+        "agent_4": 1840.981914158971,
+        "agent_1": -298.2998808372685
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 7,
+      "timestamp": "2025-12-29T19:51:06.188452",
+      "episode_reward_mean": 4526.772480817823,
+      "episode_reward_min": 1590.2223201840018,
+      "episode_reward_max": 6947.049002687247,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 28000,
+      "best_reward_so_far": 4526.772480817823,
+      "policy_rewards": {
+        "agent_2": -177.58300361650953,
+        "agent_3": 1198.95284255711,
+        "agent_0": 1715.02037148051,
+        "agent_4": 1900.844692564717,
+        "agent_1": -110.46242216800525
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 8,
+      "timestamp": "2025-12-29T19:51:31.888712",
+      "episode_reward_mean": 5020.390912081174,
+      "episode_reward_min": 1590.2223201840018,
+      "episode_reward_max": 8095.965422950203,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 32000,
+      "best_reward_so_far": 5020.390912081174,
+      "policy_rewards": {
+        "agent_2": -38.219993366311286,
+        "agent_3": 1316.0216521428401,
+        "agent_0": 1784.6956855821359,
+        "agent_4": 1929.6124861238104,
+        "agent_1": 28.281081598697646
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 9,
+      "timestamp": "2025-12-29T19:51:54.193428",
+      "episode_reward_mean": 5613.401980875554,
+      "episode_reward_min": 3529.6221827707195,
+      "episode_reward_max": 8095.965422950203,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 36000,
+      "best_reward_so_far": 5613.401980875554,
+      "policy_rewards": {
+        "agent_2": 139.54029698928866,
+        "agent_3": 1432.3515464152688,
+        "agent_0": 1886.627663808068,
+        "agent_4": 2006.1034111629963,
+        "agent_1": 148.77906249993072
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 10,
+      "timestamp": "2025-12-29T19:52:18.628685",
+      "episode_reward_mean": 6246.674000319327,
+      "episode_reward_min": 3727.4767399740404,
+      "episode_reward_max": 8156.230789217402,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 40000,
+      "best_reward_so_far": 6246.674000319327,
+      "policy_rewards": {
+        "agent_2": 275.46229891578935,
+        "agent_3": 1557.5701752971677,
+        "agent_0": 2007.8348083881203,
+        "agent_4": 2077.4606488118948,
+        "agent_1": 328.34606890635456
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 11,
+      "timestamp": "2025-12-29T19:52:41.018936",
+      "episode_reward_mean": 6721.185537553348,
+      "episode_reward_min": 4337.912795238371,
+      "episode_reward_max": 8730.109076398572,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 44000,
+      "best_reward_so_far": 6721.185537553348,
+      "policy_rewards": {
+        "agent_2": 425.3627944473158,
+        "agent_3": 1630.7319192470213,
+        "agent_0": 2117.302769789219,
+        "agent_4": 2130.025800249411,
+        "agent_1": 417.7622538203783
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 12,
+      "timestamp": "2025-12-29T19:53:02.127487",
+      "episode_reward_mean": 7264.988071905496,
+      "episode_reward_min": 4905.467512896863,
+      "episode_reward_max": 9502.56824247762,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 48000,
+      "best_reward_so_far": 7264.988071905496,
+      "policy_rewards": {
+        "agent_2": 594.0775745457987,
+        "agent_3": 1731.1945816343994,
+        "agent_0": 2229.082088970766,
+        "agent_4": 2171.048061664272,
+        "agent_1": 539.585765090261
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 13,
+      "timestamp": "2025-12-29T19:53:22.792808",
+      "episode_reward_mean": 7720.544682115549,
+      "episode_reward_min": 4905.467512896863,
+      "episode_reward_max": 10537.689028407889,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 52000,
+      "best_reward_so_far": 7720.544682115549,
+      "policy_rewards": {
+        "agent_2": 743.579623694515,
+        "agent_3": 1871.9274503165298,
+        "agent_0": 2268.2677458552557,
+        "agent_4": 2237.714408439784,
+        "agent_1": 599.0554538094634
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 14,
+      "timestamp": "2025-12-29T19:53:43.668668",
+      "episode_reward_mean": 8163.710603774516,
+      "episode_reward_min": 4905.467512896863,
+      "episode_reward_max": 10537.689028407889,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 56000,
+      "best_reward_so_far": 8163.710603774516,
+      "policy_rewards": {
+        "agent_2": 868.4841470150615,
+        "agent_3": 1960.0645547065535,
+        "agent_0": 2354.779301368627,
+        "agent_4": 2297.5753363995505,
+        "agent_1": 682.8072642847225
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 15,
+      "timestamp": "2025-12-29T19:54:03.297265",
+      "episode_reward_mean": 8768.815002645733,
+      "episode_reward_min": 6983.212346023332,
+      "episode_reward_max": 11261.768385331492,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 60000,
+      "best_reward_so_far": 8768.815002645733,
+      "policy_rewards": {
+        "agent_2": 1034.2598412631298,
+        "agent_3": 2101.830196455956,
+        "agent_0": 2465.0803723012295,
+        "agent_4": 2392.708055392525,
+        "agent_1": 774.9365372328919
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 16,
+      "timestamp": "2025-12-29T19:54:23.543015",
+      "episode_reward_mean": 9343.645875466878,
+      "episode_reward_min": 7179.024933316914,
+      "episode_reward_max": 11261.768385331492,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 64000,
+      "best_reward_so_far": 9343.645875466878,
+      "policy_rewards": {
+        "agent_2": 1171.3266087225666,
+        "agent_3": 2221.2646758211886,
+        "agent_0": 2583.5819151643677,
+        "agent_4": 2442.153474560284,
+        "agent_1": 925.3192011984715
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 17,
+      "timestamp": "2025-12-29T19:54:46.066397",
+      "episode_reward_mean": 9650.27844295309,
+      "episode_reward_min": 7179.024933316914,
+      "episode_reward_max": 11261.768385331492,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 68000,
+      "best_reward_so_far": 9650.27844295309,
+      "policy_rewards": {
+        "agent_2": 1276.7513005671335,
+        "agent_3": 2309.0352759093385,
+        "agent_0": 2663.602402925998,
+        "agent_4": 2459.905127096025,
+        "agent_1": 940.9843364545943
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 18,
+      "timestamp": "2025-12-29T19:55:06.680556",
+      "episode_reward_mean": 10217.859870171294,
+      "episode_reward_min": 8164.103523500342,
+      "episode_reward_max": 11715.40422315719,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 72000,
+      "best_reward_so_far": 10217.859870171294,
+      "policy_rewards": {
+        "agent_2": 1411.4762511457357,
+        "agent_3": 2435.9783286807833,
+        "agent_0": 2772.970979112041,
+        "agent_4": 2495.6525003507177,
+        "agent_1": 1101.781810882016
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 19,
+      "timestamp": "2025-12-29T19:55:25.858490",
+      "episode_reward_mean": 10404.617400907628,
+      "episode_reward_min": 8164.103523500342,
+      "episode_reward_max": 11913.044541173773,
+      "episode_len_mean": 288.0,
+      "episodes_total": 12,
+      "timesteps_total": 76000,
+      "best_reward_so_far": 10404.617400907628,
+      "policy_rewards": {
+        "agent_2": 1485.3200184715647,
+        "agent_3": 2462.513736233275,
+        "agent_0": 2785.000066437016,
+        "agent_4": 2507.587834479488,
+        "agent_1": 1164.1957452862855
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 20,
+      "timestamp": "2025-12-29T19:55:45.060421",
+      "episode_reward_mean": 10545.106468203505,
+      "episode_reward_min": 9150.489440797064,
+      "episode_reward_max": 11913.044541173773,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 80000,
+      "best_reward_so_far": 10545.106468203505,
+      "policy_rewards": {
+        "agent_2": 1525.9398671192257,
+        "agent_3": 2501.9853718744153,
+        "agent_0": 2767.9415791015253,
+        "agent_4": 2512.6020806263605,
+        "agent_1": 1236.6375694819806
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 21,
+      "timestamp": "2025-12-29T19:56:05.596473",
+      "episode_reward_mean": 10839.99837235832,
+      "episode_reward_min": 9150.489440797064,
+      "episode_reward_max": 12070.389109404156,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 84000,
+      "best_reward_so_far": 10839.99837235832,
+      "policy_rewards": {
+        "agent_2": 1552.541827638268,
+        "agent_3": 2573.1454581791913,
+        "agent_0": 2807.9375137956313,
+        "agent_4": 2540.790753255706,
+        "agent_1": 1365.582819489522
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 22,
+      "timestamp": "2025-12-29T19:56:25.096967",
+      "episode_reward_mean": 11021.13720420511,
+      "episode_reward_min": 9550.278426812518,
+      "episode_reward_max": 12070.389109404156,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 88000,
+      "best_reward_so_far": 11021.13720420511,
+      "policy_rewards": {
+        "agent_2": 1614.2390688722621,
+        "agent_3": 2637.2649313392885,
+        "agent_0": 2824.0686533757853,
+        "agent_4": 2553.0301490638512,
+        "agent_1": 1392.534401553921
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 23,
+      "timestamp": "2025-12-29T19:56:43.397088",
+      "episode_reward_mean": 11115.851784814384,
+      "episode_reward_min": 9525.089379604617,
+      "episode_reward_max": 12070.389109404156,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 92000,
+      "best_reward_so_far": 11115.851784814384,
+      "policy_rewards": {
+        "agent_2": 1656.9928331363312,
+        "agent_3": 2685.0179671639244,
+        "agent_0": 2844.0703081462957,
+        "agent_4": 2529.271728475287,
+        "agent_1": 1400.498947892547
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 24,
+      "timestamp": "2025-12-29T19:57:01.888819",
+      "episode_reward_mean": 11370.841540110372,
+      "episode_reward_min": 9525.089379604617,
+      "episode_reward_max": 12639.543267281515,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 96000,
+      "best_reward_so_far": 11370.841540110372,
+      "policy_rewards": {
+        "agent_2": 1767.5118072350833,
+        "agent_3": 2746.0620219103125,
+        "agent_0": 2880.5781109711556,
+        "agent_4": 2528.4947335929623,
+        "agent_1": 1448.1948664008603
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 25,
+      "timestamp": "2025-12-29T19:57:20.871377",
+      "episode_reward_mean": 11551.457495367635,
+      "episode_reward_min": 9525.089379604617,
+      "episode_reward_max": 13296.189322897142,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 100000,
+      "best_reward_so_far": 11551.457495367635,
+      "policy_rewards": {
+        "agent_2": 1831.9117620775091,
+        "agent_3": 2830.781457772581,
+        "agent_0": 2913.994976655792,
+        "agent_4": 2529.6178195341713,
+        "agent_1": 1445.1514793275817
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 26,
+      "timestamp": "2025-12-29T19:57:41.465517",
+      "episode_reward_mean": 11781.79151166737,
+      "episode_reward_min": 9525.089379604617,
+      "episode_reward_max": 13296.189322897142,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 104000,
+      "best_reward_so_far": 11781.79151166737,
+      "policy_rewards": {
+        "agent_2": 1877.263328772454,
+        "agent_3": 2883.946330166521,
+        "agent_0": 2940.9594048667627,
+        "agent_4": 2550.1824882664205,
+        "agent_1": 1529.4399595952104
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 27,
+      "timestamp": "2025-12-29T19:58:01.342560",
+      "episode_reward_mean": 12098.757194776528,
+      "episode_reward_min": 10649.708244392772,
+      "episode_reward_max": 13745.212133768884,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 108000,
+      "best_reward_so_far": 12098.757194776528,
+      "policy_rewards": {
+        "agent_2": 1913.2994358955032,
+        "agent_3": 2951.5901584269786,
+        "agent_0": 3020.953695630472,
+        "agent_4": 2640.2062114743326,
+        "agent_1": 1572.7076933492406
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 28,
+      "timestamp": "2025-12-29T19:58:22.077215",
+      "episode_reward_mean": 12389.387890123422,
+      "episode_reward_min": 11262.435666077494,
+      "episode_reward_max": 14153.375301887329,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 112000,
+      "best_reward_so_far": 12389.387890123422,
+      "policy_rewards": {
+        "agent_2": 1950.8942806651328,
+        "agent_3": 3008.5407159254555,
+        "agent_0": 3069.3621161784617,
+        "agent_4": 2722.087657274083,
+        "agent_1": 1638.5031200802914
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 29,
+      "timestamp": "2025-12-29T19:58:41.376234",
+      "episode_reward_mean": 12546.694269458254,
+      "episode_reward_min": 11262.435666077494,
+      "episode_reward_max": 14153.375301887329,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 116000,
+      "best_reward_so_far": 12546.694269458254,
+      "policy_rewards": {
+        "agent_2": 1996.9936517500462,
+        "agent_3": 3020.8122516087565,
+        "agent_0": 3087.5825164826856,
+        "agent_4": 2757.998889797047,
+        "agent_1": 1683.3069598197203
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 30,
+      "timestamp": "2025-12-29T19:59:01.931402",
+      "episode_reward_mean": 12734.891803317743,
+      "episode_reward_min": 11662.43205274942,
+      "episode_reward_max": 14153.375301887329,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 120000,
+      "best_reward_so_far": 12734.891803317743,
+      "policy_rewards": {
+        "agent_2": 2020.0224295641005,
+        "agent_3": 3070.1683843699616,
+        "agent_0": 3122.8724120114884,
+        "agent_4": 2819.1765340805164,
+        "agent_1": 1702.652043291677
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 31,
+      "timestamp": "2025-12-29T19:59:24.188434",
+      "episode_reward_mean": 12834.139703523637,
+      "episode_reward_min": 11610.344444291539,
+      "episode_reward_max": 14203.19638142337,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 124000,
+      "best_reward_so_far": 12834.139703523637,
+      "policy_rewards": {
+        "agent_2": 2050.018526351359,
+        "agent_3": 3089.886527925411,
+        "agent_0": 3120.436784307236,
+        "agent_4": 2826.0212871986414,
+        "agent_1": 1747.7765777409938
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 32,
+      "timestamp": "2025-12-29T19:59:44.910456",
+      "episode_reward_mean": 12935.487644079803,
+      "episode_reward_min": 11610.344444291539,
+      "episode_reward_max": 14203.19638142337,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 128000,
+      "best_reward_so_far": 12935.487644079803,
+      "policy_rewards": {
+        "agent_2": 2046.7772492217512,
+        "agent_3": 3100.006870155508,
+        "agent_0": 3110.9028201048905,
+        "agent_4": 2843.989674174032,
+        "agent_1": 1833.8110304236225
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 33,
+      "timestamp": "2025-12-29T20:00:06.656354",
+      "episode_reward_mean": 13044.765546081802,
+      "episode_reward_min": 11610.344444291539,
+      "episode_reward_max": 14203.19638142337,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 132000,
+      "best_reward_so_far": 13044.765546081802,
+      "policy_rewards": {
+        "agent_2": 2019.8941426765318,
+        "agent_3": 3104.930412678769,
+        "agent_0": 3145.313855544672,
+        "agent_4": 2879.7552499955327,
+        "agent_1": 1894.8718851862955
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 34,
+      "timestamp": "2025-12-29T20:00:30.731106",
+      "episode_reward_mean": 13150.41284093717,
+      "episode_reward_min": 11610.344444291539,
+      "episode_reward_max": 14401.321946254327,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 136000,
+      "best_reward_so_far": 13150.41284093717,
+      "policy_rewards": {
+        "agent_2": 2020.809193176262,
+        "agent_3": 3074.3743839141307,
+        "agent_0": 3183.252042355186,
+        "agent_4": 2891.941034174416,
+        "agent_1": 1980.0361873171769
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 35,
+      "timestamp": "2025-12-29T20:00:52.680568",
+      "episode_reward_mean": 13253.039649506289,
+      "episode_reward_min": 11774.557251188511,
+      "episode_reward_max": 14513.255733025619,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 140000,
+      "best_reward_so_far": 13253.039649506289,
+      "policy_rewards": {
+        "agent_2": 2024.7929761351845,
+        "agent_3": 3063.249962524229,
+        "agent_0": 3202.9121922265185,
+        "agent_4": 2882.1400424980907,
+        "agent_1": 2079.944476122264
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 36,
+      "timestamp": "2025-12-29T20:01:13.126992",
+      "episode_reward_mean": 13313.367117894399,
+      "episode_reward_min": 12293.410435252259,
+      "episode_reward_max": 14513.255733025619,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 144000,
+      "best_reward_so_far": 13313.367117894399,
+      "policy_rewards": {
+        "agent_2": 2064.215272812237,
+        "agent_3": 3061.721428706193,
+        "agent_0": 3217.6620161099695,
+        "agent_4": 2881.1573911570267,
+        "agent_1": 2088.6110091089727
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 37,
+      "timestamp": "2025-12-29T20:01:34.914078",
+      "episode_reward_mean": 13414.192450386296,
+      "episode_reward_min": 12324.087716061784,
+      "episode_reward_max": 14513.255733025619,
+      "episode_len_mean": 288.0,
+      "episodes_total": 12,
+      "timesteps_total": 148000,
+      "best_reward_so_far": 13414.192450386296,
+      "policy_rewards": {
+        "agent_2": 2107.9467109008915,
+        "agent_3": 3090.835182956514,
+        "agent_0": 3209.3753261883594,
+        "agent_4": 2874.3690173199348,
+        "agent_1": 2131.666213020593
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 38,
+      "timestamp": "2025-12-29T20:01:55.978997",
+      "episode_reward_mean": 13556.633320385563,
+      "episode_reward_min": 12324.087716061784,
+      "episode_reward_max": 14590.120076886093,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 152000,
+      "best_reward_so_far": 13556.633320385563,
+      "policy_rewards": {
+        "agent_2": 2178.0949990286304,
+        "agent_3": 3140.5727988799626,
+        "agent_0": 3210.2893770291157,
+        "agent_4": 2866.614687098632,
+        "agent_1": 2161.061458349222
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 39,
+      "timestamp": "2025-12-29T20:02:21.644074",
+      "episode_reward_mean": 13665.876204887247,
+      "episode_reward_min": 12428.131278874303,
+      "episode_reward_max": 15005.248970920326,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 156000,
+      "best_reward_so_far": 13665.876204887247,
+      "policy_rewards": {
+        "agent_2": 2221.1251533622335,
+        "agent_3": 3168.301316955538,
+        "agent_0": 3242.8523735781014,
+        "agent_4": 2869.1689107768534,
+        "agent_1": 2164.428450214523
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 40,
+      "timestamp": "2025-12-29T20:02:42.480268",
+      "episode_reward_mean": 13831.251987847509,
+      "episode_reward_min": 12847.51083266321,
+      "episode_reward_max": 15005.248970920326,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 160000,
+      "best_reward_so_far": 13831.251987847509,
+      "policy_rewards": {
+        "agent_2": 2254.065523042021,
+        "agent_3": 3208.441633523471,
+        "agent_0": 3261.0770166660673,
+        "agent_4": 2900.1919774412986,
+        "agent_1": 2207.4758371746534
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 41,
+      "timestamp": "2025-12-29T20:03:02.927041",
+      "episode_reward_mean": 13850.413708577666,
+      "episode_reward_min": 12847.51083266321,
+      "episode_reward_max": 15041.095790616551,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 164000,
+      "best_reward_so_far": 13850.413708577666,
+      "policy_rewards": {
+        "agent_2": 2271.8459613801215,
+        "agent_3": 3211.3227848742554,
+        "agent_0": 3283.981964331835,
+        "agent_4": 2912.532182691941,
+        "agent_1": 2170.730815299514
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 42,
+      "timestamp": "2025-12-29T20:03:23.718705",
+      "episode_reward_mean": 13980.979679674807,
+      "episode_reward_min": 12922.601505789573,
+      "episode_reward_max": 15178.351112469561,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 168000,
+      "best_reward_so_far": 13980.979679674807,
+      "policy_rewards": {
+        "agent_2": 2307.597008620964,
+        "agent_3": 3243.5793065862777,
+        "agent_0": 3280.777152086966,
+        "agent_4": 2937.2497352231862,
+        "agent_1": 2211.7764771574125
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 43,
+      "timestamp": "2025-12-29T20:03:43.682869",
+      "episode_reward_mean": 14134.742582070883,
+      "episode_reward_min": 13007.653348745871,
+      "episode_reward_max": 15178.351112469561,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 172000,
+      "best_reward_so_far": 14134.742582070883,
+      "policy_rewards": {
+        "agent_2": 2336.6209239058644,
+        "agent_3": 3274.507045718804,
+        "agent_0": 3316.529712261274,
+        "agent_4": 2954.973215338388,
+        "agent_1": 2252.111684846552
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 44,
+      "timestamp": "2025-12-29T20:04:06.341421",
+      "episode_reward_mean": 14176.718477030294,
+      "episode_reward_min": 13007.653348745871,
+      "episode_reward_max": 15178.351112469561,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 176000,
+      "best_reward_so_far": 14176.718477030294,
+      "policy_rewards": {
+        "agent_2": 2384.902584193896,
+        "agent_3": 3271.4858475328724,
+        "agent_0": 3317.5599012928706,
+        "agent_4": 2933.5534901743163,
+        "agent_1": 2269.2166538363394
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 45,
+      "timestamp": "2025-12-29T20:04:28.507371",
+      "episode_reward_mean": 14281.14668473056,
+      "episode_reward_min": 13007.653348745871,
+      "episode_reward_max": 15191.41902125186,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 180000,
+      "best_reward_so_far": 14281.14668473056,
+      "policy_rewards": {
+        "agent_2": 2403.4704398441095,
+        "agent_3": 3286.9526763813874,
+        "agent_0": 3325.4225922918995,
+        "agent_4": 2956.294989563966,
+        "agent_1": 2309.0059866491974
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 46,
+      "timestamp": "2025-12-29T20:04:51.599020",
+      "episode_reward_mean": 14377.076693943167,
+      "episode_reward_min": 13233.838378065977,
+      "episode_reward_max": 15536.432598596275,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 184000,
+      "best_reward_so_far": 14377.076693943167,
+      "policy_rewards": {
+        "agent_2": 2455.1779550470615,
+        "agent_3": 3285.461204144318,
+        "agent_0": 3325.3711428563274,
+        "agent_4": 2988.9950775689967,
+        "agent_1": 2322.0713143264616
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 47,
+      "timestamp": "2025-12-29T20:05:15.596326",
+      "episode_reward_mean": 14453.512686069282,
+      "episode_reward_min": 13233.838378065977,
+      "episode_reward_max": 16264.707319136664,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 188000,
+      "best_reward_so_far": 14453.512686069282,
+      "policy_rewards": {
+        "agent_2": 2456.101282760772,
+        "agent_3": 3291.3837324215633,
+        "agent_0": 3322.9726412397076,
+        "agent_4": 3032.049076014001,
+        "agent_1": 2351.005953633241
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 48,
+      "timestamp": "2025-12-29T20:05:41.137476",
+      "episode_reward_mean": 14503.339381732296,
+      "episode_reward_min": 13233.838378065977,
+      "episode_reward_max": 16264.707319136664,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 192000,
+      "best_reward_so_far": 14503.339381732296,
+      "policy_rewards": {
+        "agent_2": 2440.734645624686,
+        "agent_3": 3305.488962247685,
+        "agent_0": 3332.9393711081716,
+        "agent_4": 3046.0675797501876,
+        "agent_1": 2378.108823001568
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 49,
+      "timestamp": "2025-12-29T20:06:04.098833",
+      "episode_reward_mean": 14488.514905143036,
+      "episode_reward_min": 13485.158364326084,
+      "episode_reward_max": 16264.707319136664,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 196000,
+      "best_reward_so_far": 14503.339381732296,
+      "policy_rewards": {
+        "agent_2": 2457.2703296383656,
+        "agent_3": 3286.8445591974332,
+        "agent_0": 3336.4433431753237,
+        "agent_4": 3011.9834183156304,
+        "agent_1": 2395.973254816281
+      },
+      "avg_stability": 0.0
+    },
+    {
+      "iteration": 50,
+      "timestamp": "2025-12-29T20:06:25.438975",
+      "episode_reward_mean": 14505.87853889594,
+      "episode_reward_min": 13485.158364326084,
+      "episode_reward_max": 16264.707319136664,
+      "episode_len_mean": 288.0,
+      "episodes_total": 14,
+      "timesteps_total": 200000,
+      "best_reward_so_far": 14505.87853889594,
+      "policy_rewards": {
+        "agent_2": 2465.622761252732,
+        "agent_3": 3328.871883558652,
+        "agent_0": 3325.542633887174,
+        "agent_4": 2981.3575430434494,
+        "agent_1": 2404.4837171539357
+      },
+      "avg_stability": 0.0
+    }
+  ]
+}
